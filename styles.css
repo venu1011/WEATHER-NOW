@@ -48,20 +48,19 @@ body {
     backdrop-filter: blur(15px);
     text-align: center;
     transition: all 0.3s ease;
-    max-width: 600px;
+    max-width: 350px;
     width: 100%;
     animation: fadeIn 0.5s ease-in-out;
 }
 .weather-card input {
-    display: flex;
     padding: 12px;
-    margin: 10px -10px ;
+    margin: 10px 0px ;
     border: none;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
     width: 100%;
-    flex-direction: column;
+  
 
     
     
@@ -111,7 +110,7 @@ body {
     border-radius: 10px;
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     transition: background 0.5s ease-in-out;
     
 }

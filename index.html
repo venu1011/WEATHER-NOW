@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    
+</head>
+<body>
+    <div class="navbar">
+        <nav class="navbar-logo">
+            <img src="cloudy (1).png" alt="">
+            <span>WEATHER NOW</span>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="weather-card">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button onclick="getWeather()">Search</button>
+            <h2 id="city-name">City Name</h2>
+            <p id="date-time">Date & Time</p>
+            <img id="weather-icon" src="hot.png" alt="Weather Icon">
+            <div class="weather-details">
+                <p id="temperature">--°C</p>
+                <p id="condition">Condition: --</p>
+                <p id="humidity">Humidity: --%</p>
+                <p id="wind-speed">Wind Speed: -- km/h</p>
+                <p id="sunrise">Sunrise: --</p>
+                <p id="sunset">Sunset: --</p>
+            </div>
+            <button id="toggle-dark-mode" onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
+        <hr>
+        <div class="forecast" id="forecast-container">
+            <h3>7-Day Forecast</h3>
+            <div id="forecast-data"></div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
+
+

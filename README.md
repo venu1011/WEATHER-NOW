@@ -1,5 +1,6 @@
 WEATHER NOW
 WEATHER NOW is a weather forecasting application developed using HTML, CSS, JavaScript, and the OpenWeather API. This app allows users to check real-time weather conditions and a 7-day forecast for any city worldwide.
+project website[https://venu1011.github.io/WEATHER-NOW/]
 
 Features
 . Displays current weather updates: temperature, humidity, wind speed, sunrise, and sunset times.
